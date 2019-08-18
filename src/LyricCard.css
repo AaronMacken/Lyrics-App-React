@@ -1,0 +1,35 @@
+.container {
+    margin: 2rem auto;
+    display: inline-block;
+    width: 50rem;
+    background: #fff;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.containerHeader > h1 {
+    font-size: 2rem;
+    margin: 1rem auto;
+}
+
+.containerHeader {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    justify-content: center;
+}
+
+
+.containerBody {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 90%;
+    justify-content: space-around;
+    align-items: baseline;
+    margin: 1rem 0;
+}
